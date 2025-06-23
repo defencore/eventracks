@@ -1,6 +1,6 @@
-# AI Summer School 2025 - Calendar Subscription Service
+# EvenTracks - Dynamic Event Calendar Subscription Service
 
-This Flask application provides a dynamic calendar subscription service for the AI Summer School 2025 schedule. Users can subscribe to the calendar and receive automatic updates when the schedule changes.
+EvenTracks is a Flask application that provides a dynamic calendar subscription service for conferences, workshops, and multi-day events. Users can subscribe to the calendar and receive automatic updates when the schedule changes.
 
 ## Features
 
@@ -61,18 +61,25 @@ This Flask application provides a dynamic calendar subscription service for the 
    - Click "Subscribe to Calendar" for automatic setup
    - Or copy the calendar URL and add it manually to your calendar app
 
-## Updating the Schedule
+## Configuration
 
-To update the schedule, simply edit the `data/schedule.json` file. The changes will be automatically reflected in all subscribed calendars.
+1. **Copy the example configuration**:
+   ```bash
+   cp data/schedule.json.example data/schedule.json
+   ```
+
+2. **Edit `data/schedule.json`** with your event details
+
+3. **Update the schedule**: Simply edit the `data/schedule.json` file. The changes will be automatically reflected in all subscribed calendars.
 
 ### Schedule JSON Format
 
 ```json
 {
-  "title": "Event Title",
+  "title": "Your Event Name - Schedule",
   "days": [
     {
-      "date": "Monday, 23 June",
+      "date": "15.07.2025",  // Format: DD.MM.YYYY
       "sessions": [
         {
           "time": "09:00 - 10:00",
@@ -89,6 +96,14 @@ To update the schedule, simply edit the `data/schedule.json` file. The changes w
   ]
 }
 ```
+
+### Field Descriptions
+
+- **title**: The name of your event (displayed as page title and calendar name)
+- **date**: Event date in DD.MM.YYYY format (will be displayed as "Monday, 15 July")
+- **track**: Session track - "everyone" (full width), "coreA" (left column), or "coreB" (right column)
+- **mainLink**: If provided, makes the session title clickable and sets as the main event URL in calendar apps
+- **zoomLink, discordLink, videoLink**: Optional links displayed as buttons
 
 ## Calendar Subscription Instructions
 
@@ -166,6 +181,16 @@ For best results, configure your calendar app to refresh frequently:
 ## License
 
 This project is provided as-is for educational purposes.
+
+## Use Cases
+
+EvenTracks is perfect for:
+- 📚 Academic conferences and summer schools
+- 💼 Corporate training programs
+- 🎯 Multi-track workshops
+- 🎪 Festivals and cultural events
+- 🏃 Sports tournaments
+- 📅 Any multi-day event with parallel sessions
 
 ---
 
