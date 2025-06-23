@@ -17,16 +17,23 @@ EvenTracks is a Flask application that provides a dynamic calendar subscription 
 
 1. **Clone or download the project files**
 
+   ```
+   git clone git@github.com:defencore/eventracks.git
+   cd eventracks
+   ```
+
 2. **Install dependencies**:
    ```bash
+   python3 -m venv venv
+   source venv/bin/activate
    pip install -r requirements.txt
    ```
 
 3. **Configure the application**:
    Edit `app.py` and set your domain and port:
    ```python
-   DOMAIN = "your-domain.com"  # Your domain
-   PORT = 5000                 # Your desired port
+   DOMAIN = "example.com"     # Your domain
+   PORT = 5000                # Your desired port
    USE_HTTPS = True           # Set to False if not using HTTPS
    ```
 
@@ -56,6 +63,7 @@ EvenTracks is a Flask application that provides a dynamic calendar subscription 
 
 2. **Access the web interface**:
    Open your browser and go to `http://localhost:5000` (or your configured domain/port)
+   ![alt text](images/web.png)
 
 3. **Subscribe to the calendar**:
    - Click "Subscribe to Calendar" for automatic setup
@@ -110,6 +118,8 @@ EvenTracks is a Flask application that provides a dynamic calendar subscription 
 ### Apple Calendar (macOS/iOS)
 1. Click "Subscribe to Calendar" button on the website
 2. Confirm in the dialog that appears
+   ![alt text](images/subscribe.png)
+   ![alt text](images/calendar.png)
 
 ### Google Calendar
 1. Copy the calendar URL from the website
