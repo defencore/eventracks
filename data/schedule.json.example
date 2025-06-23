@@ -1,0 +1,224 @@
+{
+  "title": "Tech Conference 2025 - Schedule",
+  "days": [
+    {
+      "date": "15.07.2025",
+      "sessions": [
+        {
+          "time": "09:00 - 10:00",
+          "track": "everyone",
+          "title": "Welcome & Keynote",
+          "lecturer": "",
+          "zoomLink": "https://us02web.zoom.us/j/12345678901?pwd=example1234567890abcdefghijk.1"
+        },
+        {
+          "time": "10:00 - 11:20",
+          "track": "coreB",
+          "title": "Introduction to Blockchain Technology",
+          "lecturer": "Dr. Sarah Johnson, Tech University",
+          "zoomLink": "https://us02web.zoom.us/j/98765432101?pwd=blockchain123456789example.1",
+          "discordLink": "https://discord.com/channels/1234567890123456789/9876543210987654321"
+        },
+        {
+          "time": "11:40 - 13:00",
+          "track": "coreA",
+          "title": "Modern Web Development with React",
+          "lecturer": "John Smith, Senior Developer at TechCorp",
+          "zoomLink": "https://us02web.zoom.us/j/11122233344?pwd=react123webdev456example.1",
+          "discordLink": "https://discord.com/channels/1234567890123456789/1122334455667788990",
+          "videoLink": "https://www.youtube.com/watch?v=abc123example",
+          "mainLink": "https://example.com/react-course-materials"
+        },
+        {
+          "time": "14:00 - 15:20",
+          "track": "coreA",
+          "title": "Docker and Kubernetes Fundamentals",
+          "lecturer": "Maria Garcia, DevOps Engineer at CloudSolutions",
+          "zoomLink": "https://us02web.zoom.us/j/55566677788?pwd=docker123kube456container.1",
+          "discordLink": "https://discord.com/channels/1234567890123456789/2233445566778899001"
+        },
+        {
+          "time": "15:40 - 17:00",
+          "track": "coreA",
+          "title": "API Design Best Practices",
+          "lecturer": "Alex Chen, Backend Architect at StartupXYZ",
+          "zoomLink": "https://us02web.zoom.us/j/99988877766?pwd=api123design456restful.1",
+          "discordLink": "https://discord.com/channels/1234567890123456789/3344556677889900112"
+        },
+        {
+          "time": "17:00 - 18:00",
+          "track": "everyone",
+          "title": "Networking Session & Q&A",
+          "lecturer": "",
+          "zoomLink": "https://us02web.zoom.us/j/33322211100?pwd=network123session456chat.1",
+          "discordLink": "https://discord.com/channels/1234567890123456789/4455667788990011223"
+        }
+      ]
+    },
+    {
+      "date": "16.07.2025",
+      "sessions": [
+        {
+          "time": "10:00 - 11:20",
+          "track": "coreB",
+          "title": "Introduction to Cybersecurity",
+          "lecturer": "Prof. Robert Brown, Security Institute",
+          "zoomLink": "",
+          "discordLink": "https://discord.com/channels/1234567890123456789/5566778899001122334"
+        },
+        {
+          "time": "11:40 - 13:00",
+          "track": "coreB",
+          "title": "Ethical Hacking Workshop",
+          "lecturer": "Lisa White, Certified Ethical Hacker",
+          "zoomLink": "",
+          "discordLink": "https://discord.com/channels/1234567890123456789/6677889900112233445"
+        },
+        {
+          "time": "14:00 - 15:20",
+          "track": "coreB",
+          "title": "Mobile App Development with Flutter",
+          "lecturer": "David Lee, Mobile Developer at AppStudio",
+          "zoomLink": "",
+          "discordLink": "https://discord.com/channels/1234567890123456789/7788990011223344556"
+        },
+        {
+          "time": "15:40 - 17:00",
+          "track": "coreB",
+          "title": "Database Optimization Techniques",
+          "lecturer": "Emma Wilson, Database Administrator at DataCorp",
+          "zoomLink": "",
+          "discordLink": "https://discord.com/channels/1234567890123456789/8899001122334455667"
+        },
+        {
+          "time": "17:00 - 18:00",
+          "track": "everyone",
+          "title": "Team Building Activities",
+          "lecturer": "",
+          "zoomLink": "",
+          "discordLink": "https://discord.com/channels/1234567890123456789/9900112233445566778"
+        }
+      ]
+    },
+    {
+      "date": "17.07.2025",
+      "sessions": [
+        {
+          "time": "10:00 - 11:20",
+          "track": "coreB",
+          "title": "Cloud Architecture Patterns",
+          "lecturer": "Michael Davis, Solutions Architect at CloudTech",
+          "zoomLink": ""
+        },
+        {
+          "time": "11:40 - 13:00",
+          "track": "coreB",
+          "title": "Microservices Design Principles",
+          "lecturer": "Jennifer Martinez, Tech Lead at MicroCorp",
+          "zoomLink": ""
+        },
+        {
+          "time": "14:00 - 15:20",
+          "track": "coreB",
+          "title": "GraphQL vs REST APIs",
+          "lecturer": "Tom Anderson, API Specialist",
+          "zoomLink": ""
+        },
+        {
+          "time": "15:40 - 17:00",
+          "track": "coreB",
+          "title": "Testing Strategies for Modern Applications",
+          "lecturer": "Sophie Turner, QA Lead at TestLab",
+          "zoomLink": ""
+        },
+        {
+          "time": "17:00 - 18:00",
+          "track": "everyone",
+          "title": "Project Presentations",
+          "lecturer": "",
+          "zoomLink": ""
+        }
+      ]
+    },
+    {
+      "date": "18.07.2025",
+      "sessions": [
+        {
+          "time": "10:00 - 11:20",
+          "track": "coreA",
+          "title": "Data Science Fundamentals",
+          "lecturer": "Dr. Richard Kim, Data Science Institute",
+          "zoomLink": ""
+        },
+        {
+          "time": "11:40 - 13:00",
+          "track": "coreA",
+          "title": "Machine Learning Basics with Python",
+          "lecturer": "Anna Rodriguez, ML Engineer at DataMinds",
+          "zoomLink": ""
+        },
+        {
+          "time": "14:00 - 15:20",
+          "track": "coreA",
+          "title": "Deep Learning Introduction",
+          "lecturer": "Chris Taylor, AI Researcher",
+          "zoomLink": ""
+        },
+        {
+          "time": "15:40 - 17:00",
+          "track": "coreA",
+          "title": "Natural Language Processing",
+          "lecturer": "Dr. Patricia Moore, NLP Expert",
+          "zoomLink": ""
+        },
+        {
+          "time": "17:00 - 18:00",
+          "track": "everyone",
+          "title": "Industry Panel Discussion",
+          "lecturer": "",
+          "zoomLink": ""
+        }
+      ]
+    },
+    {
+      "date": "19.07.2025",
+      "sessions": [
+        {
+          "time": "10:00 - 11:20",
+          "track": "coreA",
+          "title": "Frontend Performance Optimization",
+          "lecturer": "Kevin Zhang, Frontend Architect",
+          "zoomLink": ""
+        },
+        {
+          "time": "10:00 - 11:20",
+          "track": "coreB",
+          "title": "DevSecOps Best Practices",
+          "lecturer": "Rachel Green, Security Engineer at SecureOps",
+          "zoomLink": ""
+        },
+        {
+          "time": "11:40 - 13:00",
+          "track": "coreB",
+          "title": "Infrastructure as Code",
+          "lecturer": "Steve Johnson, Platform Engineer",
+          "zoomLink": ""
+        },
+        {
+          "time": "14:00 - 15:20",
+          "track": "coreB",
+          "title": "Monitoring and Observability",
+          "lecturer": "Diana Prince, SRE at TechGiant",
+          "zoomLink": ""
+        },
+        {
+          "time": "17:00 - 18:00",
+          "track": "everyone",
+          "title": "Closing Ceremony & Awards",
+          "lecturer": "",
+          "zoomLink": ""
+        }
+      ]
+    }
+  ]
+}

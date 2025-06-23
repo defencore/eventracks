@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 id="page-title">{{ title }}</h1>
+        
+        <div class="calendar-subscription">
+            <h2>Subscribe to Calendar</h2>
+            <p>Stay updated with the latest schedule changes by subscribing to our calendar:</p>
+            
+            <div class="subscription-methods">
+                <div class="method">
+                    <h3>📱 Mobile & Desktop Apps</h3>
+                    <button id="subscribe-webcal" class="btn primary">
+                        Subscribe to Calendar
+                    </button>
+                    <p class="hint">Works with Apple Calendar, Outlook, and other calendar apps</p>
+                    <a href="/calendar.ics" download class="btn secondary" style="margin-top: 0.5rem; width: 100%; text-align: center;">
+                        Download .ics file
+                    </a>
+                </div>
+                
+                <div class="method">
+                    <h3>📋 Calendar URL</h3>
+                    <div class="url-container">
+                        <input type="text" id="calendar-url" value="{{ calendar_url }}" readonly>
+                        <button id="copy-url" class="btn secondary">Copy</button>
+                    </div>
+                    <p class="hint">Copy this URL to add to Google Calendar or other services</p>
+                </div>
+                
+                <div class="method google-calendar">
+                    <h3>📅 Google Calendar</h3>
+                    <ol>
+                        <li>Open Google Calendar</li>
+                        <li>Click the + next to "Other calendars"</li>
+                        <li>Select "From URL"</li>
+                        <li>Paste the URL above</li>
+                        <li>Click "Add calendar"</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="info-box">
+                <p>💡 <strong>Note:</strong> The calendar will automatically update when we make changes to the schedule. Most calendar apps check for updates every few hours.</p>
+                <p>⚙️ <strong>Tip:</strong> For best results, set your calendar app to <strong>Auto-refresh: every 5 minutes</strong> to get schedule updates quickly.</p>
+            </div>
+        </div>
+        
+        <div id="schedule-container">
+            <div class="loading">Loading schedule...</div>
+        </div>
+    </div>
+    
+    <script>
+        // Store the webcal URL
+        const webcalUrl = "{{ webcal_url }}";
+        const calendarUrl = "{{ calendar_url }}";
+    </script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
